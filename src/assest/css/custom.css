@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+/* nav */
+.navimain{
+    background-color:aliceblue;
+    
+}
+.navimain a{
+  color:rgb(62, 62, 181);
+  text-decoration: none;
+}
+/* Home */
+.homeContainer{
+    background-color: rgb(100, 43, 153);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    min-height: 600px;
+}
+
+.homeCol1{
+    background-color: rgb(120, 59, 59);
+    padding-bottom: 20px;
+    width: 45%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+   
+}
+
+.homeCol1FormLable{
+    color: white;}
+    
+.homeCol1Form{
+   width: 65%;
+   margin-bottom: 10px;
+}
+.homeColButton{
+    width: 65%;
+}
+.homeCol2{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: justify;
+}
+/* ///// */
+.bioAddButton{
+    font-size: 30px;
+    height: 80px;
+    width: 500px;
+    margin-right: 10px;
+} 
+.bioConditionButton{
+    font-size: 30px;
+    height: 80px;
+    width: 500px;
+}
+.homeislamicBioChose{
+    background-color: aliceblue;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* footer */
+.footerContainer{
+    background-color:rgb(58, 8, 104);
+    
+}
+.footerColspan{
+   color: white;
+   font-size: 18px;
+}
+.footerContainer .footerCol a{
+    text-decoration: none !important;
+    box-shadow: none !important;
+    border: 0;
+}
+/* about */
+.aboutContainer{
+    background-color:rgb(58, 8, 104);
+    padding-bottom: 40px;
+}
+.aboutHead{
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+.containerPara{
+    background-color: aliceblue;
+    padding:60px 140px 60px 140px;
+}
+.aboutPara{
+    text-align: justify;
+  
+}
+/* Question */
+.questionHead{
+    color:rgb(58, 8, 104) ;
+}
+/* Contact */
+.contactPara{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.contactPara a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.contactPara a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+/* Login */
+.LoginContainer{
+    background-color:rgb(237, 231, 243);
+    padding-bottom: 40px;
+}
+.loginCol{
+    padding: 10px;
+    border: 2px solid rgb(225, 154, 154);
+    margin: auto;
+    width: 40%;
+    box-sizing: border-box; 
+}
+.LoginForm{
+    background-color: aliceblue !important;
+    padding: 0;
+}
+/* BioData & Biodetails */
+.BioCard table{
+  width: 100%;
+border-radius: 5px;
+
+  
+}
+.bioCarsDiv{
+    background-color:rgb(58, 8, 104) ;
+}
+.BiodetailsContainer .bioCarsDiv table{
+color: rgb(219, 212, 212);
+border: 1px solid rgb(158, 153, 153);
+border-radius: 5px;
+}
+/* .BiodetailsContainer .BioCard table {
+    border: 1px solid rgb(158, 153, 153);
+    } */
+
+.BioCard table, th, td{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgb(114, 113, 113);
+}
+
+.bioDetailsCol2Div{
+    border: 1px solid rebeccapurple;
+}
+.BiodetailsContainer{
+    background-color: rgb(243, 244, 245);
+}
